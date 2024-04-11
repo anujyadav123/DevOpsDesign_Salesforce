@@ -1,0 +1,86 @@
+<template>
+    
+    <lightning-layout-item size="12" small-device-size="12" medium-device-size="6" padding="around-small">
+      <div class="anuj">
+          <div class="container">
+              <div class="header">
+                  <img src={getNavImages} class="logo">
+                  <nav>
+                      <ul>
+                          <li><a href="https://www.salesforce.com/trailblazer/anujyadav4991">trailblazer</a></li>
+                          <li><a href="#aka">Contact</a></li>
+                          <li><a href="#accord">Download Resume</a></li>
+                          <li><a href="https://www.hackerrank.com/profile/anujyadav4991">HackerRank</a></li>
+                          
+                      </ul>
+                  </nav>
+              </div>
+              <div class="content">
+                  <div class="text">
+                      <h1>Hello,I am<br>Anuj Yadav,Salesforce Developer<div>/Consultant</div></h1>
+                      <p>Experienced Salesforce Developer skilled in Apex, LWC, Visualforce, Integration Services and Admin configuration. Expert in efficient business logic, data processing, and user experience enhancement. Dedicated to quality, problem-solving, and collaborative project delivery.</p>
+                      <br>
+                      <div class="btn">
+                          <lightning-button class="slds-align_absolute-center"
+                                            label="Download Resume"
+                                            id="accord"
+                                            onclick={downloadResume}
+                          ></lightning-button>
+                      </div>
+                  </div>
+                  <div class="pepsi">
+                      <img align="right" src={image2} alt="Avtar" width="100%" height="auto">
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  
+      <div class="aka" id="aka">
+      
+         <div class="container1">
+           <div class="content1">
+             <div class="left-side">
+               <div class="address details">
+                 <i class="fas fa-map-marker-alt"></i>
+                 <div class="topic">Address</div>
+                 <div class="text-one">Ghazipur</div>
+                 <div class="text-two">Uttar Pradesh</div>
+               </div>
+               <div class="phone details">
+                 <i class="fas fa-phone-alt"></i>
+                 <div class="topic">Phone</div>
+                 <div class="text-one">+91 89XXXXX931</div>
+                 <div class="text-two">+91 73XXXXXXXX</div>
+               </div>
+               <div class="email details">
+                 <i class="fas fa-envelope"></i>
+                 <div class="topic">Email</div>
+                 <div class="text-one">anujyadav4991@gmail.com</div>
+                 <div class="text-two"></div>
+               </div>
+             </div>
+             <div><img src={wimg} class="logoo"></div>
+             <div class="right-side">
+               <div class="topic-text">Send Me a message</div>
+               <p>Regarding any vacancy or roles available..................................................................</p>
+             
+             <lightning-record-form
+             object-api-name={objName}
+             fields={fields}
+             onsuccess={handleSuccess}>
+            </lightning-record-form>
+
+           </div>
+           </div>
+         </div>
+       </div>
+      </lightning-layout-item>
+      <lightning-layout-item><div class="pepsico"><img align="Center" src={getc} alt="Avtar" width="50%" height="20%" ></div></lightning-layout-item>
+      
+      <lightning-layout-item>
+      </lightning-layout-item>
+      
+     
+     
+</template>

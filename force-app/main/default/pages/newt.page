@@ -1,0 +1,44 @@
+<apex:page >
+    <p>
+Values are what you care about- the ‘Why’ behind your actions. To start to clarify what is important to you,  please make a copy of this doc and highlight your top 10 values.
+(Note: Be mindful of what YOU care about, not what you think you ‘should’ care about). Add any words that are missing for you at the bottom. 
+Then rank those values in order, from 1 to 10. Lastly, please rate each of your 10 values on a scale of 1-10 based on how well you are currently living each value or “walking the talk.”
+Acceptance
+Achievement
+Adventure
+Awareness
+Commitment
+Communication
+Community
+Compassion
+Connection
+Creativity
+Family
+Fairness
+Flexibility
+Freedom
+Friendship
+Fulfillment
+Fun
+Growth
+Honesty
+Humor
+Integrity
+Joy
+Leadership
+Loyalty
+Nature
+Openness
+Partnership
+Respect
+Religion
+Security
+Self-care
+Service
+Sincerity
+Spirituality
+Transparency
+Trust
+Truth
+    </p>
+</apex:page>

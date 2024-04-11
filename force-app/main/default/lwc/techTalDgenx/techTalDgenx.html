@@ -1,0 +1,56 @@
+<template>
+<lightning-layout-item>
+    <div class="anuj">
+      <div class="container">
+        <div class="header">
+            <img src={tna} class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#altro">Quiz On Session</a></li>
+                    <li><a href="#hg">Give Feedback For the Session</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="content">
+            <div class="text">
+            <h1>Tech Talk....Session, <br> <span>Customer Engagement</span></h1>
+            <p>In today's digital age, customer engagement is crucial for business success. However, traditional methods of communication often fall short in meeting evolving customer expectations.
+
+            </p>
+            <div class="btn" id="altro">
+            <lightning-button class="slds-align_absolute-center"
+                  
+                  label="Try Quiz On today Session"
+                  
+                 onclick={handleonclicj}
+              ></lightning-button></div>
+           </div>
+        <div class="pepsi">
+        <img src={ava} alt="Avtar">
+        </div>
+       </div>
+   </div>
+    </div>
+    </lightning-layout-item>
+    <lightning-layout-item>
+    <div class="body" id="hg">
+    
+    <div class="form-box"> 
+        <div class="textup"> 
+            <i class="fa fa-solid fa-clock"></i> 
+            Please Give a feedback for today session,It only takes two minutes!! 
+        </div> 
+        <lightning-record-form
+             object-api-name={objName}
+             fields={fields}
+             onsuccess={handleSuccess}
+>
+            </lightning-record-form>
+    </div> 
+</div>
+  
+</lightning-layout-item> 
+
+          
+  </template>

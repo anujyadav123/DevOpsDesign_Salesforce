@@ -1,0 +1,19 @@
+<template>
+    <div class="recordform">
+    <lightning-card  title="Registration Form">
+        <lightning-record-form
+        object-api-name={objectName}
+        record-id={recordId}
+
+        fields={fieldList}
+        
+        ></lightning-record-form>
+        <lightning-button class="slds-align_absolute-center"
+                
+                label="move to chatter"
+                
+                onclick={handleNavigation}
+            ></lightning-button>
+    </lightning-card>
+    </div>
+</template>

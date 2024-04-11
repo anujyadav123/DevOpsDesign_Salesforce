@@ -1,0 +1,6 @@
+<apex:page >
+
+<apex:iframe src="https://brazengroup61-dev-ed.lightning.force.com/lightning/r/Dashboard/01Z5f000000N3R9EAK/view?queryScope=userFolders" scrolling="true" id="theIframe"/>
+    <apex:iframe src="https://brazengroup61-dev-ed.lightning.force.com/lightning/r/Report/00O5f000008u9HFEAY/view?queryScope=userFolders" scrolling="true" id="theIframee"/>
+
+</apex:page>

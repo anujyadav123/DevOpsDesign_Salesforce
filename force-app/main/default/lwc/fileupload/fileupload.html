@@ -1,0 +1,19 @@
+<template>
+    <lightning-record-edit-form class="jotform"  object-api-name="Filesupload__c" >
+        <lightning-input-field
+            field-name="Contact__c"
+        ></lightning-input-field>
+    <lightning-card title="Upload File" icon-name="custom:custom19">
+        
+        <lightning-file-upload
+            label="Resume"
+            name="fileUploader"
+            accept={acceptedFormats}
+            record-id={recordId}
+            onuploadfinished={handleUploadFinished}
+            multiple>
+    </lightning-file-upload>
+
+    </lightning-card>
+</lightning-record-edit-form>
+</template>

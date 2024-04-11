@@ -1,0 +1,40 @@
+<template>
+    <div class="ac">
+    <lightning-card  title="Qustion List" custom-icon="custom:icon13">
+        <div class="slds slds-p-horizontal--medium">
+        <div class="slds-grid slds-wrap">
+        </div>
+        
+
+           <template for:each={quslist} for:item="quslistk">
+                
+                <div key={quslistk.id}>
+                    <div class="b">Qus.. {quslistk.Question__c} </div>
+                    <div class="wrapper">
+                    <div class="one"><input type="radio"  class="a" value={quslistk.Option_A__c} onchange={aa} name="default" checked=""/>A. {quslistk.Option_A__c}</div>
+                    <div class="two"><input type="radio"  class="a" value={quslistk.Option_B__c} onchange={aa} name="default" checked="" />B. {quslistk.Option_B__c}</div>
+                    
+                    <div class="three"><input type="radio" class="a"  value={quslistk.Option_C__c} onchange={aa} name="default" checked="" />C. {quslistk.Option_C__c}</div>
+                    <div class="four"><input type="radio" class="a" value={quslistk.Option_D__c} onchange={aa} name="default" checked="" />D. {quslistk.Option_D__c} </div>
+                    </div>
+                   <br/>
+                    <lightning-button name="Update"  variant="Brand" label="Update" value={quslistk.Question__c} onclick={handleUpdate}></lightning-button>
+
+                </div>
+               
+            
+            </template>
+            <br/>
+        </br>
+            
+            <lightning-button variant="success"  label="Final Submit" class="slds-align_absolute-center"  onclick={cd}></lightning-button>
+
+      
+        
+        <br/>
+        
+        
+        </div>
+        <br/> <br/>
+        </lightning-card></div>
+</template>

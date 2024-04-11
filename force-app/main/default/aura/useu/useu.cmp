@@ -1,0 +1,6 @@
+<aura:component implements="lightning:isUrlAddressable">
+    <Lightning:Card title="cvcc">
+        <c:newforml2></c:newforml2>
+     
+    </Lightning:Card>
+      </aura:component>
