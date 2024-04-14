@@ -16,7 +16,6 @@ global with sharing class AccountManager {
 //anuj is great develoeprdcsvfg
 
 
-
         RestRequest Request=RestContext.Request;
         Response Res=new Response();
         try{
