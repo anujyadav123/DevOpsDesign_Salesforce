@@ -12,7 +12,7 @@ global with sharing class AccountManager {
     }
     @httppost 
     global static Response Createlog(){
-\
+
 //anuj is great develoeprdcsvfg
 
 
