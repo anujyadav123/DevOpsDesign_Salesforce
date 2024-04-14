@@ -12,7 +12,7 @@ global with sharing class AccountManager {
     }
     @httppost
     global static Response Createlog(){
-        
+              //system.check
         RestRequest Request=RestContext.Request;
         Response Res=new Response();
         try{
