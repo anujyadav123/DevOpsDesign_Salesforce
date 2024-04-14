@@ -59,7 +59,7 @@ public  class AccountTriggerhandler{
                 request.setHeader('X-Rapidapi-Key','a6f2fadf97msh26a27c9faa77310p17ee52jsn0853394c5104');
                 request.setHeader('X-Rapidapi-Host','sales-tax-calculator.p.rapidapi.com');
                 request.setHeader('content-type', 'application/json');
-               
+                
               
                 request.setBody(JSON.serialize(jsonstring));
                 response=http.send(request);
