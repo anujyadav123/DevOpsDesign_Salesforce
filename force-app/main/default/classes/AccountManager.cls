@@ -10,9 +10,9 @@ global with sharing class AccountManager {
         return Accnt;
         
     }
-    @httppost
+    @httppost 
     global static Response Createlog(){
-        //system.checj
+
         RestRequest Request=RestContext.Request;
         Response Res=new Response();
         try{
