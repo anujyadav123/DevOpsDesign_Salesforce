@@ -9,4 +9,11 @@ public class abcd {
     string b;string a;
     string b;string a;
     string b;
+    string a;
+    string b;string a;
+    string b;string a;
+    string b;string a;
+    string b;string a;
+    string b;string a;
+    string b;
 }
