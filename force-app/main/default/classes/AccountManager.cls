@@ -14,7 +14,7 @@ global with sharing class AccountManager {
     global static Response Createlog(){
 
 //anuj is great develoeprdcsvfg
-=======
+
 
 
         RestRequest Request=RestContext.Request;
