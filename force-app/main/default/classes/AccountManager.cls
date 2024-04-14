@@ -10,7 +10,7 @@ global with sharing class AccountManager {
         return Accnt;
         
     }
-    @httppost
+    @httppost 
     global static Response Createlog(){
               //system.check
         RestRequest Request=RestContext.Request;
