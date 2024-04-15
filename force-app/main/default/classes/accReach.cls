@@ -3,5 +3,6 @@ public with sharing class accReach {
     {
         string a;
         string b;
+        decimal x;
     }
 }
